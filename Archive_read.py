@@ -20,7 +20,7 @@ def extract_json_from_directory(directory, search_word):
             file_path = os.path.join(directory, file_name)
             with gzip.open(file_path, 'r') as file:
                 print(f" Unzipped:{file}")
-                #gz_content = file.read()
+
                 #for line in file:
                     #line = lineA[1:-1]
                     #print(f"Line is:{line}")
